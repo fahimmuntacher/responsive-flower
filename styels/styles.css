@@ -180,6 +180,35 @@ header{
     grid-template-columns: repeat(4, 1fr);
 }
 /* instagram style end */
+
+/* latest deals style start */
+    .lates-deals{
+        max-width: 1440px;
+        margin: 0 auto;
+        background-image: url(../images/Rectangle\ 9.png);
+        background-repeat: no-repeat;
+        text-align: center;
+        align-items: center;
+        margin-top: 100px;
+    }
+    .deals-context{
+        padding: 125px 0px; 
+    }
+    .deal-content p{
+        margin-top: 24px;
+        margin-bottom: 45px;
+    }
+    .deal-input input{
+        background-color: white;
+        padding: 25px 0;
+        padding-right: 300px;
+        padding-left: 22px;
+        text-align: start;
+        border: none;
+        border-radius: 8px;
+        box-shadow: 4px 0 30px rgba(0, 0, 0, 0.171);
+    }
+/* latest deal style end */
 /* media query responsive */
 
 /* mobile device */
@@ -245,6 +274,20 @@ header{
     .instagram-img-grid{
       grid-template-columns: repeat(1, 1fr);
       gap: 10px;
+    }
+    .lates-deals{
+       width: 100%;
+        margin: 0 auto;
+        background-repeat: no-repeat;
+        margin-top: 50px;
+    }
+    .deal-input input{
+        width: 10%;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-right: 250px;
+        padding-left: 8px;
+        margin-bottom: 24px;
     }
 }
 
