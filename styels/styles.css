@@ -55,3 +55,44 @@ header{
 .banner-content p{
     margin-bottom: 32px;
 }
+
+/* media query responsive */
+
+/* mobile device */
+@media screen and (max-width: 576px) {
+    .banner{
+        width: 90%;
+        flex-direction: column-reverse;
+        text-align: center;
+        margin: 0 auto;
+        /* padding-top: 8px; */
+        
+    }
+    .banner-content{
+        width: 100%;
+    }
+    .banner-img img{
+        width: 80%;
+        margin-bottom: 10px;
+    }
+}
+
+
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    .banner{
+        width: 90%;
+        flex-direction: column-reverse;
+        text-align: center;
+        margin: 0 auto;
+        /* padding-top: 8px; */
+        
+    }
+    .banner-content{
+        width: 100%;
+    }
+    .banner-img img{
+        width: 80%;
+        margin-bottom: 10px;
+    }
+}
