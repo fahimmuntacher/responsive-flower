@@ -135,7 +135,33 @@ header{
 }
 
 /* band service style end */
-
+/* discount styyle star */
+.discount-banner{
+    background-color: rgba(229, 84, 115, 0.05);
+    margin-top: 100px;
+}
+.discount-content{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1440px;
+    margin: 0 auto;
+    align-items: center;
+}
+.discount-text{
+    width: 595px;
+}
+.discount-text h1{
+    margin-bottom: 24px;
+}
+.discount-text p{
+    margin-bottom: 24px;
+}
+.discount-banner-img{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin-right: 100px;
+}
+/* discoun style end */
 /* media query responsive */
 
 /* mobile device */
@@ -180,7 +206,24 @@ header{
     .feature-flower-img{
         width: 100%;
     }
-
+    .discount-banner{
+        width: 100%;
+        margin-top: 25px;
+        padding-bottom: 15px;
+    }
+    .discount-content{
+    flex-direction: column-reverse;
+    width: 100%;
+    
+    }
+    .discount-text{
+        width: 90%;
+        text-align: center;
+        margin: 0px;
+    }
+    .discount-banner-img{
+        margin: 0 auto;
+    }
 }
 
 
@@ -227,6 +270,24 @@ header{
     }
     .feature-flower-img{
         width: 100%;
+    }
+     .discount-banner{
+        width: 100%;
+        margin-top: 25px;
+        padding-bottom: 15px;
+    }
+    .discount-content{
+    flex-direction: column-reverse;
+    width: 100%;
+    
+    }
+    .discount-text{
+        width: 90%;
+        text-align: center;
+       
+    }
+    .discount-banner-img{
+        margin: 0 auto;
     }
 
 
