@@ -300,6 +300,10 @@ header{
       grid-template-columns: repeat(1, 1fr);
       gap: 10px;
     }
+    .instagram p{
+        width: 90%;
+    
+    }
     .lates-deals{
        width: 100%;
         background-repeat: no-repeat;
@@ -316,12 +320,17 @@ header{
       footer{
         width: 100%;
         margin-top: 10px;
-    }
+    }   
     .footer-content{
         width: 90%;
-        margin: 0 auto;
+        
     }
-    
+    #feature1 img{
+        width: 100%;
+    }
+    #feature2 img{
+        width: 100%;
+    }
 }
 
 
