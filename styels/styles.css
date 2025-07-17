@@ -19,13 +19,18 @@
     font-weight: bold;
     font-size: 1.125rem;
     border: 2px solid #E55473;
+    border-radius: 10px;
     cursor: pointer;
 }
 .primary-btn:hover{
     background-color: white;
     color: #E55473;
 }
+.section-title{
+    font-weight: 700;
+    font-size: 2.5rem;
 
+}
 
 
 /* shared style end */
@@ -33,6 +38,7 @@ header{
     width: 100%;
     background-color: rgba(229, 84, 115, 0.1);
 }
+/* banner style start */
 .banner{
     max-width: 1440px;
     display: flex;
@@ -55,6 +61,80 @@ header{
 .banner-content p{
     margin-bottom: 32px;
 }
+/* banner style end */
+
+/* flower feature style start */
+.feature-flower{
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+.feature-flower-content{
+    text-align: center;
+    width: 590px;
+    margin: 0 auto;
+}
+.feature-flower-content h1{
+    margin-bottom: 24px;
+}
+.feature-flower-cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 80px;
+    gap: 24px;
+    text-align: center;
+}
+.feature-flower-img{
+    min-height: 520px;
+    border-radius: 300px 300px 0 0;
+}
+.feature-cards h3{
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-top: 30px;
+}
+.feature-cards hr{
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+#feature1{
+    background-color: rgba(167, 33, 98, 0.15);
+}
+#feature1 img{
+    padding-top: 90px;
+
+}
+#feature2{
+    background-color: rgba(5, 151, 160, 0.15);
+}
+#feature2 img{
+    padding-top: 80px;
+}
+#feature3{
+    background-color: rgba(71, 125, 17, 0.15);
+}
+#feature3 img{
+    padding-top: 40px;
+}
+/* flower feature style end */
+
+/* band service style start */
+.band-service{
+    max-width: 1440px;
+    margin: 0 auto;
+    display: grid;
+    margin-top: 150px;
+    background-color: rgba(39, 39, 39, 0.05);
+    padding: 85px 100px;
+    grid-template-columns: repeat(3, 1fr);
+    border-radius: 8px;
+}
+.service-card{
+    text-align: center;
+}
+
+/* band service style end */
 
 /* media query responsive */
 
@@ -65,6 +145,7 @@ header{
         flex-direction: column-reverse;
         text-align: center;
         margin: 0 auto;
+        padding-bottom: 8px;
         /* padding-top: 8px; */
         
     }
@@ -75,6 +156,31 @@ header{
         width: 80%;
         margin-bottom: 10px;
     }
+    .band-service{
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0 auto;
+        width: 40%;
+        margin-top: 50px;
+        padding-bottom: 0px;
+        padding-top: 50px;
+    }
+    .service-card{
+        padding-bottom: 30px;
+    }
+    .feature-flower-cards{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .feature-flower-content{
+        width: 90%;
+    }
+    .feature-cards{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .feature-flower-img{
+        width: 100%;
+    }
+
 }
 
 
@@ -85,6 +191,7 @@ header{
         flex-direction: column-reverse;
         text-align: center;
         margin: 0 auto;
+        padding-bottom: 8px;
         /* padding-top: 8px; */
         
     }
@@ -95,4 +202,32 @@ header{
         width: 80%;
         margin-bottom: 10px;
     }
+        .band-service{
+        grid-template-columns: repeat(1, 1fr);
+        width: 60%;
+        margin-top: 50px;
+        padding-bottom: 0px;
+        padding-top: 50px;
+    }
+    .service-card{
+        padding-bottom: 30px;
+    }
+     .feature-flower-cards{
+       grid-template-columns: repeat(1, 1fr);
+
+    }
+    .feature-flower-content{
+        width: 90%;
+    }
+    .feature-cards{
+        width: 50%;
+        margin: 0 auto;
+        margin-top: 20px;
+
+    }
+    .feature-flower-img{
+        width: 100%;
+    }
+
+
 }
