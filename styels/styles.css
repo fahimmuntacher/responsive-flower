@@ -209,6 +209,31 @@ header{
         box-shadow: 4px 0 30px rgba(0, 0, 0, 0.171);
     }
 /* latest deal style end */
+
+/* footer section style start */
+    footer{
+        text-align: center;
+        margin-top: 100px;
+        background-color: black;
+    }
+    .footer-content{
+        padding-top: 150px;
+        padding-bottom: 150px;
+        width: 625px;
+        margin: 0 auto;
+    }
+    .footer-content h1{
+        color: white;
+    }
+    #footer-para{
+        color: rgba(255, 255, 255, 0.9);
+        margin-top: 24px;
+        margin-bottom: 35px;
+    }
+    #copyright{
+       color: rgba(255, 255, 255, 0.4);
+    }
+/* footer section style end */
 /* media query responsive */
 
 /* mobile device */
@@ -289,6 +314,15 @@ header{
         padding-left: 8px;
         margin-bottom: 24px;
     }
+      footer{
+        width: 100%;
+        margin-top: 10px;
+    }
+    .footer-content{
+        width: 90%;
+        margin: 0 auto;
+    }
+    
 }
 
 
@@ -359,6 +393,13 @@ header{
       gap: 20px;
       margin: 0 auto;
     }
-
+   footer{
+        width: 100%;
+        margin-top: 10px;
+    }
+    .footer-content{
+        width: 90%;
+        margin: 0 auto;
+    }
 
 }
